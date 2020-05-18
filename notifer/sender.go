@@ -49,7 +49,9 @@ func Init() {
             notifers = append(notifers, NewDingtalkNotifer())
         default:
             logger.Warnf("未定义的通告对象: %s", notifer)
+            continue
         }
+        logger.Debugf("添加<%s>通告者", notifer)
     }
 }
 
