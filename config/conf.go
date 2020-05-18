@@ -25,16 +25,16 @@ var Config struct {
 
     DroneServer string `envconfig:"DRONE_SERVER"` // drone服务地址
 
-    LogPath string `envconfig:"LogPath"` // 日志路径
+    LogPath string `envconfig:"LOG_PATH"` // 日志路径
 
-    Notifer         string `envconfig:"Notifer"`         // 通告者,多个通告者用半角逗号隔开
-    NotifyRetry     int    `envconfig:"NotifyRetry"`     // 通告失败重试次数
-    OffCreateNotify bool   `envconfig:"OffCreateNotify"` // 关闭创建动作的通告
+    Notifer         string `envconfig:"NOTIFER"`           // 通告者,多个通告者用半角逗号隔开
+    NotifyRetry     int    `envconfig:"NOTIFY_RETRY"`      // 通告失败重试次数
+    OffCreateNotify bool   `envconfig:"OFF_CREATE_NOTIFY"` // 关闭创建动作的通告
 
-    DingtalkAccessToken     string `envconfig:"DingtalkAccessToken"`     // 钉钉access_token
-    DingtalkSecret          string `envconfig:"DingtalkSecret"`          // 钉钉secret
-    DingtalkStartTemplate   string `envconfig:"DingtalkStartTemplate"`   // 钉钉消息任务开始模板文件
-    DingtalkEndTemplateFile string `envconfig:"DingtalkEndTemplateFile"` // 钉钉消息任务结束模板文件
+    DingtalkAccessToken     string `envconfig:"DINGTALK_ACCESSTOKEN"`    // 钉钉access_token
+    DingtalkSecret          string `envconfig:"DINGTALK_SECRET"`         // 钉钉secret
+    DingtalkStartTemplate   string `envconfig:"DINGTALK_START_TEMPLATE"` // 钉钉消息任务开始模板文件
+    DingtalkEndTemplateFile string `envconfig:"DINGTALK_END_TEMPLATE"`   // 钉钉消息任务结束模板文件
 }
 
 func Init() {

@@ -27,9 +27,9 @@ services:
     environment:
       - DRONE_SECRET={{your_webhook_secret}}
       - DRONE_SERVER={{your_drone_url}}
-      - Notifer=dingtalk
-      - DingtalkAccessToken={{your_dingtalk_access_token}}
-      - DingtalkSecret={{your_dingtalk_secret}}
+      - NOTIFER=dingtalk
+      - DINGTALK_ACCESSTOKEN={{your_dingtalk_access_token}}
+      - DINGTALK_SECRET={{your_dingtalk_secret}}
     container_name: zdrone-build-webhook
 ```
 
@@ -41,14 +41,14 @@ DRONE_BIND|string|:80|服务监听地址|:80
 DRONE_DEBUG|bool|false|调试模式,会输出额外信息|false
 *DRONE_SECRET|string||webhook秘钥|
 *DRONE_SERVER|string||drone服务地址|
-LogPath|string||日志文件输出目录,不需要预先创建|/var/log/zdrone-build-webhook
-Notifer|string||通告者,多个通告者用半角逗号隔开|dingtalk
-NotifyRetry|int|2|通告失败重试次数|2
-OffCreateNotify|bool|false|关闭创建动作的通告|false
-DingtalkAccessToken|string||dingtalk通告者的access_token|
-DingtalkSecret|string||dingtalk通告者的secret|
-DingtalkStartTemplate|string|conf/dingtask_start_template.md|钉钉消息任务开始模板文件|
-DingtalkEndTemplateFile|string|conf/dingtask_end_template.md|钉钉消息任务结束模板文件|
+LOG_PATH|string||日志文件输出目录,不需要预先创建|/var/log/zdrone-build-webhook
+NOTIFER|string||通告者,多个通告者用半角逗号隔开|dingtalk
+NOTIFY_RETRY|int|2|通告失败重试次数|2
+OFF_CREATE_NOTIFY|bool|false|关闭创建动作的通告|false
+DINGTALK_ACCESSTOKEN|string||dingtalk通告者的access_token|
+DINGTALK_SECRET|string||dingtalk通告者的secret|
+DINGTALK_START_TEMPLATE|string|conf/dingtask_start_template.md|钉钉消息任务开始模板文件|
+DINGTALK_END_TEMPLATE|string|conf/dingtask_end_template.md|钉钉消息任务结束模板文件|
 
 # 模板语法
 
