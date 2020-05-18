@@ -179,5 +179,5 @@ func makeTaskUrl(slug string, task_id int64) string {
 
 // 构建状态图片url
 func makeStatusPicUrl(status string) string {
-    return makeResUrl(config.MyRepoUrl, config.MyMainBranch, fmt.Sprintf("assets/%s.png", status))
+    return makeResUrl(config.MyPicRepoUrl, config.MyPicRepoBranch, fmt.Sprintf("assets/%s.png", status))
 }

@@ -14,8 +14,8 @@ import (
 )
 
 const (
-    MyRepoUrl    = "https://github.com/zlyuancn/zdrone-build-webhook.git"
-    MyMainBranch = "master"
+    MyPicRepoUrl    = "https://git.zlyuan.xyz/zlyuancn/zdrone-build-webhook-img.git"
+    MyPicRepoBranch = "master"
 )
 
 var Config struct {
