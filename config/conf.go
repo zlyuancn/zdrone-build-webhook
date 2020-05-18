@@ -27,7 +27,7 @@ var Config struct {
 
     LogPath string `envconfig:"LogPath"` // 日志路径
 
-    Notifer         string `envconfig:"Notify"`          // 通告者,多个通告者用半角逗号隔开
+    Notifer         string `envconfig:"Notifer"`         // 通告者,多个通告者用半角逗号隔开
     NotifyRetry     int    `envconfig:"NotifyRetry"`     // 通告失败重试次数
     OffCreateNotify bool   `envconfig:"OffCreateNotify"` // 关闭创建动作的通告
 
