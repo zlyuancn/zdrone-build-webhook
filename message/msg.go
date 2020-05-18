@@ -159,6 +159,10 @@ func makeBranchUrl(repo_url, branch string) string {
 // 构建资源url
 func makeResUrl(repo_url, branch, res string) string {
     repo_base_url := makeRepoBaseUrl(repo_url)
+    if strings.Contains(repo_base_url, "//github.com/") {
+        raw_base_url := strings.ReplaceAll(repo_base_url, "//github.com/", "//raw.githubusercontent.com/")
+        return fmt.Sprintf("%s/%s/%s", raw_base_url, branch, res)
+    }
     return fmt.Sprintf("%s/raw/%s/%s", repo_base_url, branch, res)
 }
 
