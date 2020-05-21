@@ -63,7 +63,13 @@ func (m *Msg) Get(key string) string {
                 continue
             }
 
-            k := string(field.Tag[6 : len(field.Tag)-1])
+            k := field.Tag.Get("template")
+            if k == "" {
+                k = field.Tag.Get("json")
+            }
+            if k == "" {
+                k = field.Name
+            }
             v := msg_val.Field(i).String()
             m.template_values[k] = v
         }
