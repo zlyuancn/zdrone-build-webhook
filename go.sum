@@ -12,8 +12,6 @@ github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5a
 github.com/google/renameio v0.1.0/go.mod h1:KWCgfxg9yswjAJkECMjeO8J8rahYeXnNhOm40UhjYkI=
 github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
-github.com/kelseyhightower/envconfig v1.4.0 h1:Im6hONhd3pLkfDFsbRgu68RDNkGF1r3dvMUtDTo2cv8=
-github.com/kelseyhightower/envconfig v1.4.0/go.mod h1:cccZRl6mQpaq41TPp5QxidR+Sa3axMbJDNb//FQX6Gg=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1 h1:mweAR1A6xJ3oS2pRaGiHgQ4OO8tzTaLawm8vnODuwDk=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
@@ -38,12 +36,16 @@ github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJy
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/zlyuancn/zdingtalk v0.0.0-20200518042531-89532d56399f h1:Eb6RNCyy+E7yG03nevOKakmqp3CQO5eay+/ZEom84zg=
 github.com/zlyuancn/zdingtalk v0.0.0-20200518042531-89532d56399f/go.mod h1:MMRCuPSfS7RaHP+F4cgTQr0HKRzOiW6zIhCFyi+nFMg=
+github.com/zlyuancn/zenvconf v0.0.0-20200521064154-7b5e8b6a8771 h1:1N0nYdAg1rgdfkYqWsjvSlHgOygbTCyzVBlE+Bs3w00=
+github.com/zlyuancn/zenvconf v0.0.0-20200521064154-7b5e8b6a8771/go.mod h1:v2qzUmclL7RHA4KGbRv6UGsm7ZiAE8jgaLcU3+7cHvk=
 github.com/zlyuancn/zlog v0.0.0-20200510075342-5831b7d2f6c6 h1:CiIGNOGjLSV35KrG5+XwtZbBWJRAexLGCAaKEtRA+xk=
 github.com/zlyuancn/zlog v0.0.0-20200510075342-5831b7d2f6c6/go.mod h1:JM1QwCNmnJNZlBpqJJ8cSLGCQRh9ttXjw6huc6Spb2Q=
 github.com/zlyuancn/zretry v0.0.0-20191213040511-788c138dac36 h1:oMJPQPTGY75/SZkKF2EgazRnBkk8i6a4mipH4BervlE=
 github.com/zlyuancn/zretry v0.0.0-20191213040511-788c138dac36/go.mod h1:nXpt3JELMAirMyc5KExlSX96ixpohjHkxHpJlhqRnUU=
 github.com/zlyuancn/zsignal v0.0.0-20200102070656-631fe600ecd4 h1:pJbp0U8P+VKfYo/BbcUh8j1tMEUclxqPdl1ZFAEFaLk=
 github.com/zlyuancn/zsignal v0.0.0-20200102070656-631fe600ecd4/go.mod h1:JMMXCa/YBNw6bLNf5j18VgMO9Ghit1IfuOeNs7wio5k=
+github.com/zlyuancn/zstr v0.0.0-20200415024527-2c50cec3b400 h1:oVlgRDaFKIWvr2V0lFCvj9xE7SMzYtXiIYmo3afTRYs=
+github.com/zlyuancn/zstr v0.0.0-20200415024527-2c50cec3b400/go.mod h1:gcWCwemINH4jJeg+sXWMf45IAWc/fSn4rZ38eW2zqI8=
 go.uber.org/atomic v1.6.0 h1:Ezj3JGmsOnG1MoRWQkPBsKLe9DwWD9QeXzTRzzldNVk=
 go.uber.org/atomic v1.6.0/go.mod h1:sABNBOSYdrvTF6hTgEIbc7YasKWGhgEQZyfxyTvoXHQ=
 go.uber.org/multierr v1.5.0 h1:KCa4XfM8CWFCpxXRGok+Q0SS/0XBhMDbHHGABQLvD2A=
