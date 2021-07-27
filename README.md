@@ -1,3 +1,5 @@
+# 不再维护的项目, 请转到 https://github.com/zlyuancn/drone-build-notify
+
 # 用于接收drone构建信息的webhook, 并将构建信息推送到钉钉
 
 # 更新你的 Drone 服务配置
